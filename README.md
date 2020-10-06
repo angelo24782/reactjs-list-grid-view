@@ -1,3 +1,7 @@
+Questo progetto lo realizzato con React perchè sono mesi ormai che lo utilizzo e quindi optato per questa libreria, come css frameworks ho utilizzato Bootstrap e anche css custom realizzato da me...
+
+Ho incluso come libreria anche axios per effetuare le chiamate. API.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

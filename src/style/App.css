@@ -1,0 +1,123 @@
+.logo {
+  width: auto;
+}
+
+.card {
+  margin-bottom: 1rem !important;
+  width: 245px !important
+}
+
+.containerSearchAndButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.imgList {
+  width: 10vw;
+  height: 20vh !important;
+  border-radius: 50%;
+}
+
+.imgGrid {
+  width: 10vw !important;
+  height: 20vh !important;
+  border-radius: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.card-deck {
+  padding: 10px !important;
+}
+
+.fs13 {
+  font-size: 13px !important;
+}
+
+.row>[class*="col-"] {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+.logo_footer {
+  width: 230px;
+}
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.black:hover {
+  color: white !important;
+}
+
+.scrollTop {
+  position: fixed;
+  font-size: 50px;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 1.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+
+@media (max-width: 575.98px) {
+  .card {
+    flex-direction: column !important;
+  }
+
+  .card-img-top {
+    flex-direction: row !important;
+    width: auto !important;
+  }
+
+  .card-body {
+    display: inline-block !important;
+  }
+
+  .imgList {
+    width: 10vw;
+    height: 10vh !important;
+    border-radius: 50%;
+  }
+
+  .containerSearchAndButton {
+    flex-direction: column !important;
+  }
+
+  .btnMl-15 {
+    margin-left: -15px !important;
+  }
+
+}

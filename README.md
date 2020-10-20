@@ -2,6 +2,12 @@ Questo progetto lo realizzato con React perchè sono mesi ormai che lo utilizzo 
 
 Ho incluso come libreria anche axios per effetuare le chiamate. API.
 
+## Link Demo
+
+https://react-users-view-list-or-grid.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/778b0760-fc55-40ca-b3d5-d9b971628e1a/deploy-status)](https://app.netlify.com/sites/react-users-view-list-or-grid/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
